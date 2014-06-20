@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>gridster</id>
+    <version>0.5.1</version>
+    <title>Gridster.js</title>
+    <authors>Ducksboard</authors>
+    <owners>Ducksboard</owners>
+    <licenseUrl>https://github.com/ducksboard/gridster.js/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://gridster.net/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A drag-and-drop multi-column jQuery grid plugin</description>
+    <summary>A drag-and-drop multi-column jQuery grid plugin</summary>
+    <dependencies>
+      <dependency id="jQuery" version="2.0.3" />
+    </dependencies>
+    <references />
+  </metadata>
+</package>

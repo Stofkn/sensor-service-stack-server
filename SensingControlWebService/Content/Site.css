@@ -1,0 +1,191 @@
+﻿
+.container {
+    background-color: #99CCFF;
+    border: thick solid #808080;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container-temperature {
+    width: 100%;
+    text-align: center;
+}
+
+#temperature {
+    font-family: digital-7;
+    font-size: 23.5em;
+    color: #0e1739;
+}
+
+.chart {
+    min-width: 310px; 
+    height: 385px;
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+    #temperature {
+        font-family: digital-7;
+        font-size: 14em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #temperature {
+        font-family: digital-7;
+        font-size: 6em;
+    }
+}
+
+
+body {
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 5px;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.widget {
+    padding: 50px 12px;
+    text-align: center;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+a{ text-decoration: none; }
+.container{
+	width:90%;
+	margin:0 auto;
+	padding:25px;
+	min-height:400px;
+	height:auto;
+}
+
+.tab-content {
+    margin: 20px;
+}
+
+.gridster ul
+{
+	list-style: none;
+}
+.gridster li
+{
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding:5px;
+    cursor: pointer;
+}
+#dashboard-grid {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.max-width {
+    width: 100%;
+}
+
+#settings {
+    width: 450px;
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   Colours
+   ========================================================================== */
+
+.fg-blue,       .fg-blue-link a         {color: #2d89ef;}
+.fg-blueLight,  .fg-blueLight-link a    {color: #eff4ff;}
+.fg-blueDark,   .fg-blueDark-link a     {color: #2b5797;}
+.fg-green,      .fg-green-link a        {color: #00a300;}
+.fg-greenLight, .fg-greenLight-link a   {color: #99b433;}
+.fg-greenDark,  .fg-greenDark-link a    {color: #1e7145;}
+.fg-red,        .fg-red-link a          {color: #b91d47;}
+.fg-yellow,     .fg-yellow-link a       {color: #ffc40d;}
+.fg-orange,     .fg-orange-link a       {color: #e3a21a;}
+.fg-orangeDark, .fg-orangeDark-link a   {color: #da532c;}
+.fg-pink,       .fg-pink-link a         {color: #9f00a7;}
+.fg-pinkDark,   .fg-pinkDark-link a     {color: #7e3878;}
+.fg-purple,     .fg-purple-link a       {color: #603cba;}
+.fg-darken,     .fg-darken-link a       {color: #1d1d1d;}
+.fg-lighten,    .fg-lighten-link a      {color: #d5e7ec;}
+.fg-white,      .fg-white-link a        {color: #ffffff;}
+.fg-grayDark,   .fg-grayDark-link a     {color: #525252;}
+
+.bg-blue       {background-color: #2d89ef;}
+.bg-blueLight  {background-color: #eff4ff;}
+.bg-blueDark   {background-color: #2b5797;}
+.bg-green      {background-color: #00a300;}
+.bg-greenLight {background-color: #99b433;}
+.bg-greenDark  {background-color: #1e7145;}
+.bg-red        {background-color: #b91d47;}
+.bg-yellow     {background-color: #ffc40d;}
+.bg-orange     {background-color: #e3a21a;}
+.bg-orangeDark {background-color: #da532c;}
+.bg-pink       { background-color: #9c4274;}
+.bg-pinkDark   {background-color: #662b4c;}
+.bg-purple     {background-color: #603cba;}
+.bg-darken     {background-color: #1d1d1d;}
+.bg-lighten    {background-color: #d5e7ec;}
+.bg-white      {background-color: #ffffff;}
+.bg-grayDark   {background-color: #525252;}
+
